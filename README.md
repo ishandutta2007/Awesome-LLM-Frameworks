@@ -68,85 +68,55 @@ Sorted by company size (revenue / valuation) — largest first.
 
 ## Open-Source GitHub Projects
 
+All star badges are live counts from the shields.io API, sorted by stars (descending). Click a badge to open the repo's stargazers page.
 
+- [![AutoGPT stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers) **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** — Autonomous agent platform descended from the viral GPT-4 experiment; build, host and run long-running AI agents with planning, memory and tool use.
 
-- **[LangChain](https://github.com/langchain-ai/langchain)**  
+- [![Dify stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) **[Dify](https://github.com/langgenius/dify)** — Most-starred open-source LLM platform combining orchestration, prompt management, evaluation, RAG pipelines, and deployment.
 
-  **The most popular general-purpose LLM framework** — provides abstractions for prompts, chains, agents, tools, memory, and 700+ integrations. Best for rapid prototyping and teams new to LLM development. Note: abstraction overhead and historical breaking changes are common challenges .
+- [![Langflow stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) **[Langflow](https://github.com/langflow-ai/langflow)** — Low-code visual builder for multi-agent and RAG applications; every flow is exposed as an API, with a managed cloud option.
 
+- [![LangChain stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) **[LangChain](https://github.com/langchain-ai/langchain)** — **The most popular general-purpose LLM framework** — provides abstractions for prompts, chains, agents, tools, memory, and 700+ integrations. Best for rapid prototyping and teams new to LLM development. Note: abstraction overhead and historical breaking changes are common challenges .
 
+- [![AutoGen stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers) **[AutoGen (AG2)](https://github.com/microsoft/autogen)** — Microsoft's multi-agent conversation framework; forked to AG2 after Microsoft Agent Framework merger .
 
-- **[LangGraph](https://github.com/langchain-ai/langgraph)**  
+- [![CrewAI stars](https://img.shields.io/github/stars/joaomdmoura/crewAI?style=social&color=white)](https://github.com/joaomdmoura/crewAI/stargazers) **[CrewAI](https://github.com/joaomdmoura/crewAI)** — Multi-agent framework with crew-based orchestration and role-based agents.
 
-  Graph-based agent orchestration from LangChain — requires explicit edge definition but provides powerful state management and checkpointing for complex multi-agent workflows. The recommended choice when agent state persistence matters .
+- [![Flowise stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers) **[Flowise](https://github.com/FlowiseAI/Flowise)** — Visual drag-and-drop LLM workflow builder built on LangChain — connect LLMs, prompts, tools, memory, and vector stores into working applications without code. Self-hostable and popular for teams wanting LangChain power with a visual interface .
 
+- [![LlamaIndex stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) **[LlamaIndex](https://github.com/run-llama/llama_index)** — **Data-centric framework focused on RAG** — excels at document ingestion, indexing, and retrieval. Shines when the primary use case is connecting LLMs to data with complex document processing. Often used alongside LangChain for agent orchestration .
 
+- [![LangGraph stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers) **[LangGraph](https://github.com/langchain-ai/langgraph)** — Graph-based agent orchestration from LangChain — requires explicit edge definition but provides powerful state management and checkpointing for complex multi-agent workflows. The recommended choice when agent state persistence matters .
 
-- **[LlamaIndex](https://github.com/run-llama/llama_index)**  
+- [![Agno stars](https://img.shields.io/github/stars/agno-agi/agno?style=social&color=white)](https://github.com/agno-agi/agno/stargazers) **[Agno](https://github.com/agno-agi/agno)** — Lightweight multimodal agent framework with built-in memory, knowledge and tool use; optimized for low latency and high throughput at scale.
 
-  **Data-centric framework focused on RAG** — excels at document ingestion, indexing, and retrieval. Shines when the primary use case is connecting LLMs to data with complex document processing. Often used alongside LangChain for agent orchestration .
+- [![LightRAG stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=social&color=white)](https://github.com/HKUDS/LightRAG/stargazers) **[LightRAG](https://github.com/HKUDS/LightRAG)** — Simple and fast retrieval-augmented generation with knowledge graph integration .
 
+- [![DSPy stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=social&color=white)](https://github.com/stanfordnlp/dspy/stargazers) **[DSPy](https://github.com/stanfordnlp/dspy)** — Stanford's framework for *programming* rather than prompting LLMs — composes pipelines as typed modules and compiles them into optimized prompts automatically.
 
+- [![OpenAI Agents SDK stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=social&color=white)](https://github.com/openai/openai-agents-python/stargazers) **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** — Official SDK for building agentic applications with handoffs and guardrails.
 
-- **[Haystack](https://github.com/deepset-ai/haystack)**  
+- [![smolagents stars](https://img.shields.io/github/stars/huggingface/smolagents?style=social&color=white)](https://github.com/huggingface/smolagents/stargazers) **[smolagents](https://github.com/huggingface/smolagents)** — Hugging Face's minimal agent library: code-writing agents that plan and act by emitting and executing Python snippets.
 
-  **Production-ready orchestration framework** with 25k+ stars — modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, and semantic search .
+- [![Semantic Kernel stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social&color=white)](https://github.com/microsoft/semantic-kernel/stargazers) **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** — **Microsoft's enterprise AI orchestration SDK** — native C#, Python, and Java support with Azure integration, planners for automatic function orchestration, and semantic memory. Ideal for .NET enterprise environments and making existing code AI-callable. Smaller community than LangChain but stronger typing and IDE support .
 
+- [![Vercel AI SDK stars](https://img.shields.io/github/stars/vercel/ai?style=social&color=white)](https://github.com/vercel/ai/stargazers) **[Vercel AI SDK](https://github.com/vercel/ai)** — TypeScript toolkit for building AI-powered streaming applications; different idioms from Python frameworks .
 
+- [![Haystack stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) **[Haystack](https://github.com/deepset-ai/haystack)** — **Production-ready orchestration framework** from deepset — modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, and semantic search .
 
-- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)**  
+- [![Letta stars](https://img.shields.io/github/stars/letta-ai/letta?style=social&color=white)](https://github.com/letta-ai/letta/stargazers) **[Letta](https://github.com/letta-ai/letta)** — Stateful LLM agents with persistent, managed memory (formerly MemGPT); ideal for long-running agents that must recall context across sessions.
 
-  **Microsoft's enterprise AI orchestration SDK** — native C#, Python, and Java support with Azure integration, planners for automatic function orchestration, and semantic memory. Ideal for .NET enterprise environments and making existing code AI-callable. Smaller community than LangChain but stronger typing and IDE support .
+- [![Windmill stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) **[Windmill](https://github.com/windmill-labs/windmill)** — **Open-source Retool and Temporal alternative** — turns Python, TypeScript, Go, Bash, and SQL scripts into webhooks, workflows, and UIs with auto-generated forms. Rust backend is 13x faster than Airflow .
 
+- [![LangChain4j stars](https://img.shields.io/github/stars/langchain4j/langchain4j?style=social&color=white)](https://github.com/langchain4j/langchain4j/stargazers) **[LangChain4j](https://github.com/langchain4j/langchain4j)** — Java port of the LangChain ecosystem for JVM enterprise stacks; brings LLM chat, RAG and agents to Spring-style Java services.
 
+- [![Rivet stars](https://img.shields.io/github/stars/ironclad/rivet?style=social&color=white)](https://github.com/ironclad/rivet/stargazers) **[Rivet](https://github.com/ironclad/rivet)** — Open-source visual AI programming environment for building AI agent chains with graph-based editor and code generation; production-ready platform .
 
-- **[Flowise](https://github.com/FlowiseAI/Flowise)**  
+- [![PipesHub stars](https://img.shields.io/github/stars/pipeshub-ai/pipeshub-ai?style=social&color=white)](https://github.com/pipeshub-ai/pipeshub-ai/stargazers) **[PipesHub](https://github.com/pipeshub-ai/pipeshub-ai)** — Open-source context layer for AI agents connecting Slack, Drive, Jira, GitHub, and Microsoft 365 .
 
-  Visual drag-and-drop LLM workflow builder built on LangChain — connect LLMs, prompts, tools, memory, and vector stores into working applications without code. Self-hostable and popular for teams wanting LangChain power with a visual interface .
+- [![Tiledesk stars](https://img.shields.io/github/stars/Tiledesk/tiledesk?style=social&color=white)](https://github.com/Tiledesk/tiledesk/stargazers) **[Tiledesk](https://github.com/Tiledesk/tiledesk)** — **Open-source alternative to Voiceflow and Botpress** — full-stack live chat with built-in chatbots, visual no-code flow designer, and LLM/GPT AI integration with graph-based conversation design .
 
-
-
-- **[Tiledesk](https://github.com/Tiledesk/tiledesk)**  
-
-  **Open-source alternative to Voiceflow and Botpress** — full-stack live chat with built-in chatbots, visual no-code flow designer, and LLM/GPT AI integration with graph-based conversation design .
-
-
-
-- **[Windmill](https://github.com/windmill-labs/windmill)**  
-
-  **Open-source Retool and Temporal alternative** — turns Python, TypeScript, Go, Bash, and SQL scripts into webhooks, workflows, and UIs with auto-generated forms. Rust backend is 13x faster than Airflow; 18k+ stars .
-
-
-
-- **[Rivet](https://github.com/ironclad/rivet)**  
-
-  Open-source visual AI programming environment for building AI agent chains with graph-based editor and code generation; production-ready platform .
-
-
-
-- **[Sovrium](https://socket.dev/npm/package/sovrium)**  
-
-  Configuration-driven web application platform — open-source alternative to Airtable, Retool, and Notion. Self-hosted with tables, automatic API, authentication, and pages defined in a config file. BSL-1.1 license .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[CrewAI](https://github.com/joaomdmoura/crewAI)** — Multi-agent framework with crew-based orchestration and role-based agents.
-
-- **[AutoGen (AG2)](https://github.com/microsoft/autogen)** — Microsoft's multi-agent conversation framework; forked to AG2 after Microsoft Agent Framework merger .
-
-- **[Dify](https://github.com/langgenius/dify)** — Most-starred open-source LLM platform combining orchestration, prompt management, evaluation, and deployment.
-
-- **[Vercel AI SDK](https://github.com/vercel/ai)** — TypeScript toolkit for building AI-powered streaming applications; different idioms from Python frameworks .
-
-- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** — Official SDK for building agentic applications with handoffs and guardrails.
-
-- **[PipesHub](https://github.com/pipeshub-ai/pipeshub)** — Open-source context layer for AI agents connecting Slack, Drive, Jira, GitHub, and Microsoft 365 .
-
-- **[LightRAG](https://github.com/HKUDS/LightRAG)** — Simple and fast retrieval-augmented generation with knowledge graph integration .
+- [![Sovrium stars](https://img.shields.io/github/stars/sovrium/sovrium_v0?style=social&color=white)](https://github.com/sovrium/sovrium_v0/stargazers) **[Sovrium](https://socket.dev/npm/package/sovrium)** — Configuration-driven web application platform — open-source alternative to Airtable, Retool, and Notion. Self-hosted with tables, automatic API, authentication, and pages defined in a config file. BSL-1.1 license .
 
 
 
