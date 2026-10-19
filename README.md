@@ -84,7 +84,7 @@ Sorted by company size (revenue / valuation) — largest first.
 
 ## 🌐 Open-Source GitHub Projects
 
-🌟 All star badges are live counts from the shields.io API, sorted by stars (descending). Click a badge to open the repo's stargazers page.
+🌟 All Stars_Badges are live counts from the shields.io API, sorted by stars (descending). Click a badge to open the repo's stargazers page.
 
 - [![AutoGPT stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=social&color=white)](https://github.com/Significant-Gravitas/AutoGPT/stargazers) **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** 🤖 — Autonomous agent platform descended from the viral GPT-4 experiment; build, host and run long-running AI agents with planning, memory and tool use.
 
@@ -152,7 +152,7 @@ An **LLM framework** is a library or platform that abstracts the raw LLM API int
 
 ### Which is the best open-source LLM framework?
 
-There is no single winner: **LangChain** is the most-starred general-purpose option, **Dify** and **Langflow** lead for visual no-code builders, **LlamaIndex** dominates document RAG, and **LangGraph** is the pick when agent state persistence matters. See the [star-sorted open-source table](#open-source-github-projects) for the full ranking by GitHub stars.
+There is no single winner: **LangChain** is the most-starred general-purpose option, **Dify** and **Langflow** lead for visual no-code builders, **LlamaIndex** dominates document RAG, and **LangGraph** is the pick when agent state persistence matters. See the [star-sorted open-source table](#open-source-github-projects) for the full ranking by GitHub_Stars.
 
 ### What is the best no-code / visual AI agent builder?
 
