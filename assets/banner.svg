@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Awesome LLM Frameworks — SaaS and open-source AI agent, RAG and LLM orchestration platforms">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="0.5" stop-color="#191040"/>
+      <stop offset="1" stop-color="#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7c3aed">
+        <animate attributeName="stop-color" values="#7c3aed;#22d3ee;#ec4899;#7c3aed" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#ec4899;#7c3aed;#22d3ee" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899;#7c3aed;#22d3ee;#ec4899" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND LAYER (behind everything) ============ -->
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+
+  <!-- drifting glows -->
+  <circle cx="180" cy="90" r="200" fill="url(#glowA)">
+    <animate attributeName="cx" values="180;320;180" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="240" r="220" fill="url(#glowB)">
+    <animate attributeName="cx" values="1020;880;1020" dur="17s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- flowing data streams (animated dashed curves) -->
+  <g fill="none" stroke="url(#flow)" stroke-width="2">
+    <path d="M0,64 C200,24 400,104 600,64 C800,24 1000,104 1200,64" stroke-dasharray="14 22">
+      <animate attributeName="stroke-dashoffset" values="0;-720" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,256 C220,296 420,216 620,256 C820,296 1020,216 1200,256" stroke-dasharray="14 22">
+      <animate attributeName="stroke-dashoffset" values="0;720" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- animated agent-graph nodes + edges (top-right and bottom-left corners) -->
+  <g stroke="#8b5cf6" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+    <path d="M1058,58 L1122,92 M1122,92 L1064,128 M1058,58 L1064,128"/>
+    <path d="M78,196 L146,224 M146,224 L92,262 M78,196 L92,262"/>
+  </g>
+  <g fill="#a5b4fc">
+    <circle cx="1058" cy="58" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1122" cy="92" r="5"><animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1064" cy="128" r="5"><animate attributeName="opacity" values="0.5;1;0.5" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="78" cy="196" r="5"><animate attributeName="opacity" values="1;0.4;1" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="146" cy="224" r="5"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="92" cy="262" r="5"><animate attributeName="opacity" values="0.6;1;0.6" dur="4.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- drifting tech pills (kept in the outer margins, away from the center panel) -->
+  <g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#c7d2fe" fill-opacity="0.30" stroke="#818cf8" stroke-opacity="0.28">
+    <g>
+      <rect x="24" y="26" width="96" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="72" y="46" text-anchor="middle" stroke="none">LLMs</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;14,0;0,0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="150" y="12" width="104" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="202" y="32" text-anchor="middle" stroke="none">RAG</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-12,6;0,0" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="286" y="280" width="120" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="346" y="300" text-anchor="middle" stroke="none">Agents</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;16,-6;0,0" dur="8s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="40" y="272" width="92" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="86" y="292" text-anchor="middle" stroke="none">MCP</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-10,-8;0,0" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="1004" y="16" width="128" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="1068" y="36" text-anchor="middle" stroke="none">LangChain</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-14,8;0,0" dur="8.5s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="1024" y="274" width="118" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="1083" y="294" text-anchor="middle" stroke="none">LangGraph</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;12,-6;0,0" dur="9.5s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="1146" y="128" width="50" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="1171" y="148" text-anchor="middle" stroke="none">RAG</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-8,10;0,0" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="6" y="130" width="64" height="30" rx="15" fill="#312e81" fill-opacity="0.35"/>
+      <text x="38" y="150" text-anchor="middle" stroke="none">AI</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0;9,9;0,0" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- ============ CENTER PANEL: shields the title area from animated elements ============ -->
+  <rect x="220" y="88" width="760" height="144" rx="20" fill="#070b1c" fill-opacity="0.82"/>
+  <rect x="220" y="88" width="760" height="144" rx="20" fill="none" stroke="url(#accent)" stroke-opacity="0.8" stroke-width="2"/>
+
+  <!-- ============ FOREGROUND: title & subtitle (always on top, never animated away) ============ -->
+  <text x="600" y="152" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Awesome LLM Frameworks</text>
+  <text x="600" y="196" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#a5b4fc">SaaS &amp; Open-Source AI Agent, RAG &amp; LLM Orchestration Platforms</text>
+
+  <!-- animated accent underline below the subtitle, inside the panel -->
+  <rect x="470" y="210" width="260" height="4" rx="2" fill="url(#accent)" opacity="0.9"/>
+</svg>

@@ -1,5 +1,9 @@
 # Awesome-LLM-Frameworks
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome LLM Frameworks — SaaS and open-source AI agent, RAG and LLM orchestration platforms banner" width="100%">
+</p>
+
 ## The Complete List of LLM Frameworks, AI Agent Frameworks & LLM Orchestration Tools (2026)
 
 ### Top LLM Frameworks Ecosystem
