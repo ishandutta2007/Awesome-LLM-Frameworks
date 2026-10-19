@@ -42,6 +42,12 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+### Sector Overview & Market Dynamics
+
+**Market size**: The conversational-AI sector that these agent-building platforms compete in is estimated at **~$14.3B in 2025**, forecast to reach **~$78.9B by 2033** (Grand View Research), with the adjacent enterprise agentic-AI market alone projected to grow from $2.6B (2024) to $24.5B by 2030.
+
+**Market structure**: The sector is **moderately fragmented** — not winner-take-all. Hyperscalers (Microsoft, Google) exert outsized influence, but specialized vendors (Cognigy, Kore.ai, Retool, Voiceflow, Botpress, Stack AI) and open-source alternatives keep winning enterprise share, and consolidation is accelerating (e.g., NiCE's ~$955M acquisition of Cognigy; Asana's acquisition of Stack AI).
+
 All prices in USD, verified October 2026 (annual billing noted where it applies).
 
 Sorted by company size (revenue / valuation) — largest first.
