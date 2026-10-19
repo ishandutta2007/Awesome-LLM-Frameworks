@@ -204,6 +204,12 @@ The conversational-AI market these platforms compete in is estimated at **~$14.3
 
 
 
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Frameworks&type=date&legend=top-left)
+
+
+
 ---
 
 
