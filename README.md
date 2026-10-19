@@ -210,6 +210,20 @@ The conversational-AI market these platforms compete in is estimated at **~$14.3
 
 
 
+## 🙏 Support
+
+**Thank you** for visiting this list — I hope it saves you hours of research on LLM frameworks, AI agent builders and LLM orchestration tooling. 🙌
+
+If you find it useful, please consider:
+
+- ⭐ **Starring** the repository — it takes a second and helps others discover it.
+- 🍴 **Forking** it to add or improve entries.
+- 📣 **Sharing** it with your team, community or on social media.
+
+And if it has saved you real time, you can **[Buy me a coffee ☕](https://github.com/sponsors/ishandutta2007)** via the GitHub Sponsor Dashboard — thank you for your support!
+
+
+
 ---
 
 
